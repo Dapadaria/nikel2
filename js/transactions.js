@@ -26,7 +26,7 @@ document.getElementById("transaction-form").addEventListener("submit", function(
 
     data.transactions.unshift({
         value: value,
-        typu: type,
+        type: type,
         description: description,
         date: date
     });
